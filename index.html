@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background-div">
+
+
+    <div id="win-popup" class="popup">
+        <div class="popup-content">
+          <h3>congratulations!</h3>
+          <h3 >you won!</h3>
+          <h3>Secreat code</h3>
+          <h3 id="result"></h3>
+          <button id="CLOSE"   onclick="closePopup()">Close</button>
+        </div>
+      </div>
+
+
+    <audio id="moveAudio">
+        <source src="Move.wav"> 
+        Your browser does not support the audio element.
+      </audio>
+      <audio id="resetAudio">
+        <source src="gameover.wav"> 
+        Your browser does not support the audio element.
+      </audio>
+      <audio id="checkAudio">
+        <source src="Food.wav"> 
+        Your browser does not support the audio element.
+      </audio>
+
+
+
+    <div class="tableContainer">
+<table>
+<tr>
+    <td><button class="incrementButton1" onclick="setValue1();playsoundmove();"></button></td>
+    <td><button class="incrementButton2" onclick="setValue2();playsoundmove();"></button></td>
+    <td><button class="incrementButton3" onclick="setValue3();playsoundmove();"></button></td>
+   <td><button class="incrementButton4" onclick="setValue4();playsoundmove();"></button></td><td><button id="check1" onclick="check1(); playsoundcheck();">check
+
+   </button></td>
+   <td><button id="btnstyle1"></button></td>
+   <td><button id="btnstyle2"></button></td>
+   <td><button id="btnstyle3"></button></td>
+   <td><button id="btnstyle4"></button></td>
+</tr> 
+<tr>
+    <td><button class="incrementButton5" onclick="setValue5();playsoundmove();"></button></td>
+    <td><button class="incrementButton6" onclick="setValue6();playsoundmove();"></button></td>
+    <td><button class="incrementButton7" onclick="setValue7();playsoundmove();"></button></td>
+   <td><button class="incrementButton8" onclick="setValue8();playsoundmove();"></button></td><td><button id="check2" onclick="check2(); playsoundcheck();"  >check
+
+   </button></td>
+   <td><button id="btnstyle5"></button></td>
+   <td><button id="btnstyle6"></button></td>
+   <td><button id="btnstyle7"></button></td>
+   <td><button id="btnstyle8"></button></td>
+</tr>
+<tr>
+    <td><button class="incrementButton9" onclick="setValue9();playsoundmove();"></button></td>
+    <td><button class="incrementButton10" onclick="setValue10();playsoundmove();"></button></td>
+    <td><button class="incrementButton11" onclick="setValue11();playsoundmove();"></button></td>
+   <td><button class="incrementButton12" onclick="setValue12();playsoundmove();"></button></td><td><button id="check3" onclick="check3();playsoundcheck(); "  >check
+
+   </button></td>
+
+   <td><button id="btnstyle9"></button></td>
+   <td><button id="btnstyle10"></button></td>
+   <td><button id="btnstyle11"></button></td>
+   <td><button id="btnstyle12"></button></td>
+</tr>
+<tr>
+    <td><button class="incrementButton13" onclick="setValue13();playsoundmove();"></button></td>
+    <td><button class="incrementButton14" onclick="setValue14();playsoundmove();"></button></td>
+    <td><button class="incrementButton15" onclick="setValue15();playsoundmove();"></button></td>
+   <td><button class="incrementButton16" onclick="setValue16();playsoundmove();"></button></td><td><button id="check4" onclick="check4(); playsoundcheck();"  >check
+
+   </button></td>
+
+
+   <td><button id="btnstyle13"></button></td>
+   <td><button id="btnstyle14"></button></td>
+   <td><button id="btnstyle15"></button></td>
+   <td><button id="btnstyle16"></button></td>
+</tr>
+<tr>
+    <td><button class="incrementButton17" onclick="setValue17();playsoundmove();"></button></td>
+    <td><button class="incrementButton18" onclick="setValue18();playsoundmove();"></button></td>
+    <td><button class="incrementButton19" onclick="setValue19();playsoundmove();"></button></td>
+   <td><button class="incrementButton20" onclick="setValue20();playsoundmove();"></button></td><td><button id="check5" 
+    onclick="check5();playsoundcheck(); "  >check
+
+   </button></td>
+
+
+
+   <td><button id="btnstyle17"></button></td>
+   <td><button id="btnstyle18"></button></td>
+   <td><button id="btnstyle19"></button></td>
+   <td><button id="btnstyle20"></button></td>
+</tr>
+<tr>
+    <td><button class="incrementButton21" onclick="setValue21();playsoundmove();"></button></td>
+    <td><button class="incrementButton22" onclick="setValue22();playsoundmove();"></button></td>
+    <td><button class="incrementButton23" onclick="setValue23();playsoundmove();"></button></td>
+   <td><button class="incrementButton24" onclick="setValue24();playsoundmove();"></button></td><td><button id="check6" 
+    onclick="check6();playsoundcheck(); "  >check
+
+   </button></td>
+
+   <td><button id="btnstyle21"></button></td>
+   <td><button id="btnstyle22"></button></td>
+   <td><button id="btnstyle23"></button></td>
+   <td><button id="btnstyle24"></button></td>
+</tr>
+<tr>
+    <td><button class="incrementButton25" onclick="setValue25();playsoundmove();"></button></td>
+    <td><button class="incrementButton26" onclick="setValue26();playsoundmove();"></button></td>
+    <td><button class="incrementButton27" onclick="setValue27();playsoundmove();"></button></td>
+   <td><button class="incrementButton28" onclick="setValue28();playsoundmove();"></button></td><td><button id="check7"  
+    onclick="check7(); playsoundcheck();" >check
+
+   </button></td>
+
+
+   <td><button id="btnstyle25"></button></td>
+   <td><button id="btnstyle26"></button></td>
+   <td><button id="btnstyle27"></button></td>
+   <td><button id="btnstyle28"></button></td>
+</tr>
+<tr>
+    <td><button class="incrementButton29" onclick="setValue29();playsoundmove();"></button></td>
+    <td><button class="incrementButton30" onclick="setValue30();playsoundmove();"></button></td>
+    <td><button class="incrementButton31" onclick="setValue31();playsoundmove();"></button></td>
+   <td><button class="incrementButton32" onclick="setValue32();playsoundmove();"></button></td><td><button id="check8" 
+    onclick="check8();playsoundcheck(); "  >check
+
+   </button></td>
+
+
+
+
+
+   <td><button id="btnstyle29"></button></td>
+   <td><button id="btnstyle30"></button></td>
+   <td><button id="btnstyle31"></button></td>
+   <td><button id="btnstyle32"></button></td>
+</tr><div>
+    <button id="resetbtnrule"><h3>*****HOW TO PLAY*****</h3>
+    <P>The goal is to guess the four digit code that was generated.<br>
+    There are no repeated numbers in the secret code <br>
+To test a combination click repeatedly on blanks <br>to select the number you want <br>
+if you leave an blank in one of the spaces,<br>it will not be cosidered <br>
+check if the selected combination is correct by <br>
+ clicking on the check button,if  <br>it is incoreect some point will appear aside. <br>
+created points means: <br>
+<li>Yellow point:Means that the code selected has a number <br>in the secret code,But that is NOT placed in the correct <br> position.
+</li>
+<li>Blue point:Means that the code selected has <br> a number in the secret code and its placed <br> in the correct posotion.</li></P><br><br><br><br><br>
+    
+<div id="resetbtnrule1"><a  id="resetbtn"href="index.html">RESET</a></div>
+    
+    </button>
+   
+   </div>
+</table>
+
+</div>
+
+  
+
+
+<!-- <button  onclick="playsoundreset();openLink();">RESET</button> -->
+
+   <script src="script.js"></script> 
+</body>
+</html>

@@ -1,0 +1,148 @@
+.tableContainer{
+    
+        width: 80%; /* Adjust the width of the container */
+        margin: 0 auto; /* Center the container horizontally */
+        border: 1px solid #ccc; /* Optional: Add a border for visualization */
+        padding: 20px; /* Optional: Add padding for spacing */
+      
+
+
+}
+
+
+ /* Style for the button */
+.incrementButton1,.incrementButton2,.incrementButton3,.incrementButton4,.incrementButton5,.incrementButton6,.incrementButton7,.incrementButton8,.incrementButton9,.incrementButton10,.incrementButton11,.incrementButton12,.incrementButton13,.incrementButton14,.incrementButton15,.incrementButton16,.incrementButton17,.incrementButton18,.incrementButton19,.incrementButton20,.incrementButton21,.incrementButton22,.incrementButton23,.incrementButton24,.incrementButton25,.incrementButton26,.incrementButton27,.incrementButton28,.incrementButton29,.incrementButton30,.incrementButton31,.incrementButton32 {
+        padding: 8px 16px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      
+     
+     
+      
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+#check1,#check2,#check3,#check4,#check5,#check6,#check7,#check8{
+        padding: 8px 16px;
+        background-color: #34db5b;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 14px;
+
+}        
+#btnstyle1,#btnstyle2,#btnstyle3,#btnstyle4,#btnstyle5,#btnstyle6,#btnstyle7,#btnstyle8,#btnstyle9,#btnstyle10,#btnstyle11,#btnstyle12,#btnstyle13,#btnstyle14,#btnstyle15,#btnstyle16,#btnstyle17,#btnstyle18,#btnstyle19,#btnstyle20,#btnstyle21,#btnstyle22,#btnstyle23,#btnstyle24,#btnstyle25,#btnstyle26,#btnstyle27,#btnstyle28,#btnstyle29,#btnstyle30,#btnstyle31,#btnstyle32 {
+        padding: 8px 16px;
+       height: 50px;
+       width: 50px;
+        
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+        text-decoration: none;
+
+}  
+
+.center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+      }
+      
+      .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .popup-content {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+      }
+      #resetbtnrule{
+        padding: 5px 10px;
+        background-color:  rgba(34, 164, 225, 0.7);
+        color: white;
+       float: right;
+        justify-content: center;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 16px;
+
+
+}
+
+#CLOSE {
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+
+#resetbtnrule1{
+        padding: 10px 20px;
+        background-color:  rgba(34, 164, 225, 1);
+        color: white;
+      
+        justify-content: center;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 16px;
+
+
+}
+
+
+
+
+#resetbtn{
+        padding: 10px 20px;
+        background-color: #db7a34;
+        color: white;
+      
+        justify-content: center;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 16px;
+
+
+}
+
+
+.background-div{
+       
+        background-image: url('pngtree-brain-technology-code-digital-picture-image_912934.png'); 
+}
+#rulesofgame{
+
+        float:right;
+
+}
